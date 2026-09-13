@@ -128,3 +128,73 @@
     @apply font-sans;
   }
 }
+/* ---------------------------------------------------------------------------
+   ourcerita.co (site-key ourcerita-co-e1f6b6c5) — self-hosted Canva webfonts.
+   Family ids were resolved from the live page by exact glyph-metric matching;
+   the semantic names below describe how each face is actually used.
+   --------------------------------------------------------------------------- */
+@font-face {
+  font-family: "oc-serif"; /* Canva YAFcfq7XuZE_0 — body + display serif */
+  src: url("/sites/ourcerita-co-e1f6b6c5/root-8a5edab2/fonts/oc-serif-400.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: "oc-serif";
+  src: url("/sites/ourcerita-co-e1f6b6c5/root-8a5edab2/fonts/oc-serif-400-italic.woff2") format("woff2");
+  font-weight: 400; font-style: italic; font-display: block;
+}
+@font-face {
+  font-family: "oc-serif";
+  src: url("/sites/ourcerita-co-e1f6b6c5/root-8a5edab2/fonts/oc-serif-700.woff2") format("woff2");
+  font-weight: 700; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: "oc-script"; /* Canva YACgEQzTJgs_0 — swash script ("Book", "Cerita") */
+  src: url("/sites/ourcerita-co-e1f6b6c5/root-8a5edab2/fonts/oc-script-400.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: "oc-hand"; /* Canva YAG6MKVCPmY_0 — handwriting ("Hello Loveebirds!") */
+  src: url("/sites/ourcerita-co-e1f6b6c5/root-8a5edab2/fonts/oc-hand-400.woff") format("woff");
+  font-weight: 400; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: "oc-calligraphy"; /* Canva YAEz2L9phwY_0 — formal calligraphy */
+  src: url("/sites/ourcerita-co-e1f6b6c5/root-8a5edab2/fonts/oc-calligraphy-400.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: block;
+}
+
+:root {
+  --oc-maroon: rgb(93, 23, 24);
+  --oc-crimson: rgb(116, 9, 32);
+  --oc-bone: rgb(228, 227, 224);
+}
+@font-face {
+  font-family: "oc-sans"; /* Canva YAFcfzuxpMw_0 — social link text */
+  src: url("/sites/ourcerita-co-e1f6b6c5/root-8a5edab2/fonts/oc-sans-400.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: "oc-display"; /* Canva YAGt9EZkOdk_0 — wide caps closing headline */
+  src: url("/sites/ourcerita-co-e1f6b6c5/root-8a5edab2/fonts/oc-display-400.woff") format("woff");
+  font-weight: 400 700; font-style: normal; font-display: block;
+}
+/* Canva Sans, subset exactly as the original serves it. */
+@font-face {
+  font-family: "oc-canva-sans";
+  src: url("/sites/ourcerita-co-e1f6b6c5/root-8a5edab2/fonts/canva-sans-latin.woff2") format("woff2");
+  font-weight: 400 700; font-style: normal; font-display: swap;
+  unicode-range: u+0020-007e, u+00a0, u+00a2-00a9, u+00ac-00ae, u+00b0, u+00b4-00b7, u+00d7, u+00f7, u+0300-0304, u+0306-0308, u+030a-030c, u+0312, u+0326-0328, u+2013-2014, u+2018-201a, u+201c-201e, u+2020-2022, u+2026, u+2117, u+2120, u+2122, u+2190-2199, u+fb01-fb02, u+feff, u+fffc-fffd;
+}
+@font-face {
+  font-family: "oc-canva-sans";
+  src: url("/sites/ourcerita-co-e1f6b6c5/root-8a5edab2/fonts/canva-sans-ext.woff2") format("woff2");
+  font-weight: 400 700; font-style: normal; font-display: swap;
+  unicode-range: u+00a1, u+00aa-00ab, u+00af, u+00b8, u+00ba-00bb, u+00bf, u+00c0-00d6, u+00d8-00f6, u+00f8-0148, u+014a-017e, u+0192, u+01b5-01b6, u+01fc-01fd, u+0218-021b, u+0237, u+02c6-02c7, u+02c9, u+02d8-02dd, u+1e80-1e85, u+1e9e, u+1ef2-1ef3, u+2030, u+2039-203a, u+20ac, u+20ba, u+2113;
+}
+@font-face {
+  font-family: "oc-canva-sans";
+  src: url("/sites/ourcerita-co-e1f6b6c5/root-8a5edab2/fonts/canva-sans-sym.woff2") format("woff2");
+  font-weight: 400 700; font-style: normal; font-display: swap;
+  unicode-range: u+00b1-00b3, u+00b9, u+00bc-00be, u+0394, u+03a9, u+03bc, u+03c0, u+2044, u+2070, u+2074-2089, u+2126, u+212e, u+2153-2154, u+215b-215e, u+2202, u+2206, u+220f, u+2211-2212, u+2215, u+2219, u+221a, u+221e, u+222b, u+2248, u+2260, u+2264-2265, u+25ca;
+}

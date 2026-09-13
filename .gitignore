@@ -47,3 +47,7 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# Admin content editor — local-dev fallback storage/uploads (cloud KV/Blob used in prod)
+/data/site-content.json
+/public/uploads/

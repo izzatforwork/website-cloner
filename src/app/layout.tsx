@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const SEO = "/sites/ourcerita-co-e1f6b6c5/root-8a5edab2/seo";
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "OURCERITA.CO | YOUR AESTHETIC WEDDING CONTENT",
+  openGraph: {
+    title: "OURCERITA.CO | YOUR AESTHETIC WEDDING CONTENT",
+    type: "website",
+  },
+  icons: {
+    icon: [
+      { url: `${SEO}/favicon.png` },
+      { url: `${SEO}/icon-192.png`, sizes: "192x192", type: "image/png" },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -23,11 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className="antialiased">
+      <body className="bg-[rgb(93,23,24)]">{children}</body>
     </html>
   );
 }
